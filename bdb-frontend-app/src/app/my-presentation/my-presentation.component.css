@@ -1,0 +1,73 @@
+p {
+  margin: 0;
+}
+
+#name-presentation{
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  color: #444;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  font-size: 51px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: bold;
+} 
+
+.presentation-header-image{
+  background-image: url('http://drive.google.com/uc?export=view&id=1RQxLjq67Ls-98-LcN_grWHtcofja8Yn4');
+  background-size: cover;
+}
+
+.c-description{
+  max-width: 700px;
+  margin: 20px;
+}
+
+.p-description{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing:2px;
+}
+
+.content {
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #a1acb1;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card.card.highlight-card span {
+  margin-left: 60px;
+}
+
+.circle-link {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: white;
+  border: 2px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 1s ease-out;
+}
+
+.circle-link:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
